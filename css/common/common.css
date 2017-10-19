@@ -1,0 +1,131 @@
+/**
+    @description: css公共样式
+    @author: bin.liu@speedycloud.cn
+    @update: bin.liu@speedycloud.cn（2017-09-25）
+ */
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.dis-i {
+    display: inline-block;
+}
+
+.dis-b {
+    display: block;
+}
+
+.dis-n {
+    display: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    overflow: hidden;
+    height: 0;
+}
+
+/* 清除个别样式 */
+
+.clear-margin-t {
+    margin-top: 0;
+}
+.clear-margin-r {
+    margin-right: 0;
+}
+.clear-margin-b {
+    margin-bottom: 0;
+}
+.clear-margin-l {
+    margin-left: 0;
+}
+
+/* 按钮公共样式 */
+.btn {
+    display: inline-block;
+    padding: 7px 23px;
+    line-height: 14px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: top;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border-radius: 2px;
+}
+.btn-primary {
+    background-color: #2288FF;
+    color: #fff;
+}
+
+/* css3 动画特效样式 */
+
+.trans-normal {
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+/* 字体公共样式 */
+@font-face {
+    font-family: 'FZLTCHJW';
+    src: url('../../fonts/FZLTCHJW.TTF');
+}
+@font-face {
+    font-family: 'FZLTCXHJW';
+    src: url('../../fonts/FZLTCXHJW.TTF');
+}
+@font-face {
+    font-family: 'FZLTDHJW';
+    src: url('../../fonts/FZLTDHJW.TTF');
+}
+@font-face {
+    font-family: 'FZLTHJW';
+    src: url('../../fonts/FZLTHJW.TTF');
+}
+@font-face {
+    font-family: 'FZLTTHJW';
+    src: url('../../fonts/FZLTTHJW.TTF');
+}
+@font-face {
+    font-family: 'FZLTXHJW';
+    src: url('../../fonts/FZLTXHJW.TTF');
+}
+@font-face {
+    font-family: 'FZLTXIHJW';
+    src: url('../../fonts/FZLTXIHJW.TTF');
+}
+@font-face {
+    font-family: 'FZLTZCHJW';
+    src: url('../../fonts/FZLTZCHJW.TTF');
+}
+@font-face {
+    font-family: 'FZLTZHJW';
+    src: url('../../fonts/FZLTZHJW.TTF');
+}
+@font-face {
+    font-family: 'FZLTZHUNHJW';
+    src: url('../../fonts/FZLTZHUNHJW.TTF');
+}
+@font-face {
+    font-family: '方正正中黑简体';
+    src: url('../../fonts/方正正中黑简体.TTF');
+}
