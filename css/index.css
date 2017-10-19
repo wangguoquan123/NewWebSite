@@ -274,6 +274,13 @@
 .index-activity-cont .index-activity-link:nth-child(1) img {
     top: 9px;
 }
+.index-activity-cont .index-activity-link img.index-activity-hovered,
+.index-activity-cont .index-activity-link:hover img.index-activity-normal {
+    display: none;
+}
+.index-activity-cont .index-activity-link:hover img.index-activity-hovered {
+    display: block;
+}
 .index-activity-link .index-activity-text {
     color: #373737;
     line-height: 16px;
@@ -308,4 +315,9 @@
 .index-activity-cont .index-activity-link:hover .index-activity-text,
 .index-activity-cont .index-activity-link:hover mark {
     color: white;
+}
+.index-activity-cont .index-activity-link:hover .index-activity-icon {
+    background-color: white;
+    opacity: .55;
+    color: #2288FF;
 }
